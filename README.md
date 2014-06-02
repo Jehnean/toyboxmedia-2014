@@ -15,7 +15,7 @@ For Mac OSX:
   the path to your clone of this git repo. For example:
 
 	DocumentRoot "/Users/dkern/development/toyboxmedia"
-	<Directory "/Users/dkern/development/toyboxmedia">
+	Directory "/Users/dkern/development/toyboxmedia"
 
 * Save the configuration file
 * Click the "Restart" button for the Apache Web Server to reload the configuration
