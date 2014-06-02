@@ -1,0 +1,392 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.group:before,
+.group:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.group:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.group {
+    *zoom: 1;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	background: #ccc;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:active, a:hover {
+	text-decoration: underline;
+}
+#header {
+	height: 100px;
+	overflow: hidden;
+}
+nav {
+	position: fixed;
+}
+#logo {
+	height: 60px;
+	display: block;
+	float: left;
+}
+#logo img {
+	height: 60px;
+	width: auto;
+}
+#header ul {
+	margin-top: 15px;
+	text-align: right;
+	display: block;
+	width: 700px;
+	float: right;
+}
+#header ul > li {
+	display: inline-block;
+}
+#header ul > li:first-child {
+	display: none;
+}
+#header ul > li a {
+	font-size: 1.2em;
+}
+#header ul li a:link, #header ul li a:visited {
+	padding: 0 10px;
+	border-right: 1px dotted #ccc;
+}
+#header ul > li:last-child a {
+	border: none;
+}
+#header ul li a:active, #header ul li a:hover, #header ul li a.selected {
+	text-decoration: none;
+}
+.breadcrumb {
+
+}
+.content {
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background: #efefef;
+}
+.column {
+	display: block;
+	float: left;
+	min-height: 100px;
+	padding: 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#cinema {
+	height: 250px;
+	text-align: center;
+}
+#main-banner a.btn {
+	display: block;
+	height: 40px;
+	width: 125px;
+	border: 3px solid #fff;
+	background: rbga(120,120,120,.5);
+	margin: auto;
+	color: #fff;
+	padding-top: 12px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.intro {
+
+}
+.sidebar {
+	float: right;
+}
+.section {
+	border-bottom: 1px dotted #ccc;
+}
+.column1 {
+	width: 33%;
+}
+.column2 {
+	width: 66%;
+}
+.column3 {
+	width: 99%;
+}
+#footer {
+	background: #efefef;
+}
+#footer .content {
+	padding-bottom: 25px;
+}
+#footer .column {
+	padding: 20px 15px;
+	border-left: 1px solid #ccc;
+	color: #000;
+	font-size: 12px;
+	min-height: 200px;
+}
+#footer .column p {
+	padding-bottom: 10px;
+}
+#footer .column form {
+	
+}
+#footer .column label {
+	display: block;
+	vertical-align: top;
+	width: 100%;
+	text-align: right;
+}
+#footer .column label div {
+	display: inline-block;
+	width: 220px;
+	padding-left: 10px;
+}
+#footer .column label select, #footer .column label input, #footer .column label textarea {
+	display: block;
+	padding: 5px;
+	width: 100%;
+	border-radius: 3px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+#footer .column input[type='submit'] {
+	float: right;
+}
+/* first column butts to left */
+.column:first-child, #footer .column:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+
+}
+
+.button {
+
+}
+
+@media (max-width: 1024px) {
+	.content {
+		width: 100%;
+	}
+	.column {
+		padding-left: 20px;
+	}
+	.column {
+		padding: 10px;
+	}
+/* Screen widths*/
+@media (max-width: 1000px) {
+	#header ul {
+		width: 680px;
+		margin-top: 20px;
+	}
+	#header ul > li a {
+		font-size: 1.1em;
+		padding: 0 5px;
+	}
+}
+@media (max-width: 800px) {
+	body {
+		font-size: 1.08em;
+	}
+	#header ul {
+		width: 600px;
+		float: none;
+		margin: auto;
+		padding-top: 0;
+		margin-top: 0;
+		text-align: center;
+	}
+	#logo {
+		display: block;
+		margin: auto;
+		float: none;
+	}
+	#logo img {
+		height: 50px;
+		margin: 0;
+	}
+	#header {
+		height: 120px;
+	}
+	#cinema {
+		height: 200px;
+	}
+	.content {
+		margin: 10px auto 0 auto;
+	}
+}
+@media (max-width: 480px) {
+
+	#wrapper {
+		max-width: 500px;
+	}
+	.content {
+		margin-top: 15px;
+	}
+	#logo {
+		display: inline;
+	}
+	.column1, .column2, .column3, #footer .column1, #footer .column2 {
+		width: 100%;
+		min-height: 150px;
+		height: auto;
+		text-align: left;
+	}
+	#header {
+		height: 100px;
+	}
+	#header ul {
+		width: 100%;
+	}
+	#header ul > li a {
+		font-size: 1.2em;
+		padding: 0 5px;
+	}	
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+	#wrapper {
+		max-width: 100%;
+	}
+	#header ul {
+		display: block;
+		height: 40px;
+		width: 40px;
+		overflow: hidden;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding: 0;
+		padding-top: 40px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		transition: width .5s;
+		-moz-transition: width  .5s;
+		-webkit-transition: width .5s;
+	}
+	#header ul > li {
+		display: block;
+		width: 100%;
+		float: none;
+		border: none;
+		color: #fff;
+		text-align: left;
+		font-size: 18px;
+	}
+	#header ul > li a {
+		border: none;
+	}
+	#header ul > li:first-child {
+		display: block;
+		padding: 0;
+		width: 40px;
+		height: 40px;
+		float: right;
+		margin: 10px;
+		border: none;
+		color: #fff;
+		background: #000;
+		margin-top: -30px;
+		overflow: hidden;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+	#header ul li a:link, #header ul li a:visited {
+		display: block;
+		height: 30px;
+		color: #fff;
+		border-bottom: 1px solid #bebeb0;
+		padding: 10px;
+	}
+	#header ul li a:active, #header ul li a:hover {
+		color: #000;
+		background: #fff;
+		text-decoration: none;
+	}
+	#header ul:hover {
+		height: auto;
+		width: 80%;
+		background: rgba(0, 0, 0, .8);
+		color: #fff;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+	.content {
+		width: 100%;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+	#wrapper {
+		width: 1024px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+	#wrapper {
+		max-width: 760x;
+	}
+}
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+
+}

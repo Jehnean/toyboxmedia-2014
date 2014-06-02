@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY st0 "display:none;">
+	<!ENTITY st1 "display:inline;fill:#252525;">
+	<!ENTITY st2 "fill:#FFFFFF;">
+	<!ENTITY st3 "fill:#149B9E;">
+	<!ENTITY st4 "fill:#27BDBE;">
+	<!ENTITY st5 "display:none;fill:none;">
+	<!ENTITY st6 "fill:#808080;">
+	<!ENTITY st7 "fill:#808080;stroke:#7E7E7E;stroke-width:2.9999;stroke-miterlimit:2.6131;">
+	<!ENTITY st8 "clip-path:url(#SVGID_2_);fill:#808080;">
+	<!ENTITY st9 "clip-path:url(#SVGID_4_);fill:#808080;">
+	<!ENTITY st10 "clip-path:url(#SVGID_6_);fill:#808080;">
+	<!ENTITY st11 "clip-path:url(#SVGID_8_);fill:#808080;">
+	<!ENTITY st12 "clip-path:url(#SVGID_10_);fill:#808080;">
+	<!ENTITY st13 "clip-path:url(#SVGID_12_);fill:#808080;">
+	<!ENTITY st14 "clip-path:url(#SVGID_14_);fill:#808080;">
+	<!ENTITY st15 "clip-path:url(#SVGID_16_);fill:#808080;">
+	<!ENTITY st16 "clip-path:url(#SVGID_18_);fill:#808080;">
+	<!ENTITY st17 "clip-path:url(#SVGID_20_);fill:#808080;">
+	<!ENTITY st18 "clip-path:url(#SVGID_22_);fill:#808080;">
+	<!ENTITY st19 "clip-path:url(#SVGID_24_);fill:#808080;">
+	<!ENTITY st20 "clip-path:url(#SVGID_26_);fill:#808080;">
+	<!ENTITY st21 "clip-path:url(#SVGID_28_);fill:#808080;">
+	<!ENTITY st22 "clip-path:url(#SVGID_30_);fill:#808080;">
+	<!ENTITY st23 "clip-path:url(#SVGID_32_);fill:#808080;">
+	<!ENTITY st24 "clip-path:url(#SVGID_34_);fill:#808080;">
+	<!ENTITY st25 "clip-path:url(#SVGID_36_);fill:#808080;">
+	<!ENTITY st26 "clip-path:url(#SVGID_38_);fill:#808080;">
+	<!ENTITY st27 "clip-path:url(#SVGID_40_);fill:#808080;">
+	<!ENTITY st28 "clip-path:url(#SVGID_42_);fill:#808080;">
+	<!ENTITY st29 "clip-path:url(#SVGID_44_);fill:#808080;">
+	<!ENTITY st30 "clip-path:url(#SVGID_46_);fill:#808080;">
+	<!ENTITY st31 "clip-path:url(#SVGID_48_);fill:#808080;">
+	<!ENTITY st32 "clip-path:url(#SVGID_50_);fill:#808080;">
+	<!ENTITY st33 "clip-path:url(#SVGID_52_);fill:#808080;">
+	<!ENTITY st34 "clip-path:url(#SVGID_54_);fill:#808080;">
+	<!ENTITY st35 "clip-path:url(#SVGID_56_);fill:#808080;">
+	<!ENTITY st36 "clip-path:url(#SVGID_58_);fill:#808080;">
+	<!ENTITY st37 "clip-path:url(#SVGID_60_);fill:#808080;">
+	<!ENTITY st38 "clip-path:url(#SVGID_62_);fill:#808080;">
+	<!ENTITY st39 "clip-path:url(#SVGID_64_);fill:#808080;">
+	<!ENTITY st40 "clip-path:url(#SVGID_66_);fill:#808080;">
+	<!ENTITY st41 "clip-path:url(#SVGID_68_);fill:#808080;">
+	<!ENTITY st42 "clip-path:url(#SVGID_70_);fill:#808080;">
+	<!ENTITY st43 "clip-path:url(#SVGID_72_);fill:#808080;">
+	<!ENTITY st44 "clip-path:url(#SVGID_74_);fill:#808080;">
+	<!ENTITY st45 "clip-path:url(#SVGID_76_);fill:#808080;">
+	<!ENTITY st46 "fill:#B3B3B3;">
+	<!ENTITY st47 "opacity:0.35;clip-path:url(#SVGID_78_);fill:#231F20;">
+	<!ENTITY st48 "opacity:0.35;clip-path:url(#SVGID_80_);fill:#231F20;">
+	<!ENTITY st49 "opacity:0.35;clip-path:url(#i_Dot_1_);">
+	<!ENTITY st50 "fill:#231F20;">
+	<!ENTITY st51 "opacity:0.35;clip-path:url(#i_1_);">
+	<!ENTITY st52 "opacity:0.35;clip-path:url(#SVGID_82_);">
+	<!ENTITY st53 "opacity:0.35;clip-path:url(#SVGID_84_);">
+	<!ENTITY st54 "opacity:0.35;clip-path:url(#SVGID_86_);">
+	<!ENTITY st55 "opacity:0.35;clip-path:url(#SVGID_88_);">
+	<!ENTITY st56 "opacity:0.35;clip-path:url(#SVGID_90_);">
+	<!ENTITY st57 "opacity:0.35;clip-path:url(#SVGID_92_);">
+	<!ENTITY st58 "opacity:0.35;clip-path:url(#SVGID_94_);">
+	<!ENTITY st59 "display:inline;fill:#CCCCCC;">
+	<!ENTITY st60 "display:inline;">
+	<!ENTITY st61 "fill:#CCCCCC;">
+	<!ENTITY st62 "fill-rule:evenodd;clip-rule:evenodd;fill:#CCCCCC;">
+	<!ENTITY st63 "fill-rule:evenodd;clip-rule:evenodd;fill:#585858;">
+	<!ENTITY st64 "display:inline;fill:#585858;">
+	<!ENTITY st65 "fill-rule:evenodd;clip-rule:evenodd;fill:#B3B3B3;">
+	<!ENTITY st66 "fill:#585858;">
+	<!ENTITY st67 "fill:#0177B5;">
+	<!ENTITY st68 "fill-rule:evenodd;clip-rule:evenodd;fill:#808080;">
+	<!ENTITY st69 "display:inline;fill:#808080;">
+	<!ENTITY st70 "display:inline;fill:#2AA9E0;">
+	<!ENTITY st71 "display:inline;fill:#3B5999;">
+	<!ENTITY st72 "fill:#C30907;">
+	<!ENTITY st73 "display:inline;fill:#FFFFFF;">
+	<!ENTITY st74 "fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;">
+	<!ENTITY st75 "fill-rule:evenodd;clip-rule:evenodd;fill:#333333;">
+	<!ENTITY st76 "fill:#333333;">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" viewBox="0 0 30.1 30" style="enable-background:new 0 0 30.1 30;" xml:space="preserve">
+<g id="Background" style="&st0;">
+	<rect x="-310.9" y="-40" style="&st1;" width="1280" height="800"/>
+</g>
+<g id="No_Rollover">
+</g>
+<g id="Icons" style="&st0;">
+	<g id="LinkedIn_2_" style="&st60;">
+		<path style="&st66;" d="M0.5,10h6.2v20H0.5V10z M3.6,0c2,0,3.6,1.6,3.6,3.6c0,2-1.6,3.6-3.6,3.6C1.6,7.2,0,5.6,0,3.6
+			C0,1.6,1.6,0,3.6,0"/>
+		<path style="&st66;" d="M10.6,10h6v2.7h0.1c0.8-1.6,2.9-3.2,5.9-3.2c6.3,0,7.5,4.2,7.5,9.5v11h-6.2v-9.7c0-2.3,0-5.3-3.2-5.3
+			c-3.2,0-3.7,2.5-3.7,5.1V30h-6.2V10z"/>
+	</g>
+</g>
+<g id="Icon_Rollovers">
+	<g id="LinkedIn_1_">
+		<path style="&st76;" d="M0.5,10h6.2v20H0.5V10z M3.6,0c2,0,3.6,1.6,3.6,3.6c0,2-1.6,3.6-3.6,3.6C1.6,7.2,0,5.6,0,3.6
+			C0,1.6,1.6,0,3.6,0"/>
+		<path style="&st76;" d="M10.6,10h6v2.7h0.1c0.8-1.6,2.9-3.2,5.9-3.2c6.3,0,7.5,4.2,7.5,9.5v11h-6.2v-9.7c0-2.3,0-5.3-3.2-5.3
+			c-3.2,0-3.7,2.5-3.7,5.1V30h-6.2V10z"/>
+	</g>
+</g>
+</svg>
