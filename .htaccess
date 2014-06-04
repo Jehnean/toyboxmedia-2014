@@ -1,26 +1,19 @@
-DirectoryIndex index.html index.php
-
-ErrorDocument 404 /errors/404.php
-ErrorDocument 500 /errors/500.php  
-php_value include_path ".:./includes/:/mnt/vhosts/common/includes/"
-php_value date.timezone "America/New_York"
+### REDIRECT to www.*
 RewriteEngine On
-
-# REDIRECT to www.*
 RewriteCond %{HTTP_HOST} ^domain\.com
 RewriteRule ^(.*)$ http://www.domain.com/$1 [R=301,L]
 
+### Redirect requests to php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^.]+)$ $1.php [L,QSA]
 RewriteRule ^(.*)$ $1 [L,QSA]
 
-#Redirect 301 /previous/uri http://www.domain.com/new/uri
-
-<ifmodule mod_deflate.c>
+### Compression
+<IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
-</ifmodule>
-<ifModule mod_gzip.c>
+</IfModule>
+<IfModule mod_gzip.c>
   mod_gzip_on Yes
   mod_gzip_dechunk Yes
   mod_gzip_item_include file \.(html?|txt|css|js|php|pl)$
@@ -29,8 +22,10 @@ RewriteRule ^(.*)$ $1 [L,QSA]
   mod_gzip_item_include mime ^application/x-javascript.*
   mod_gzip_item_exclude mime ^image/.*
   mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
-</ifModule>
-<ifModule mod_expires.c>
+</IfModule>
+
+### Caching
+<IfModule mod_expires.c>
   ExpiresActive On
   ExpiresDefault "access plus 1 seconds"
   ExpiresByType text/html "access plus 1 seconds"
@@ -40,8 +35,8 @@ RewriteRule ^(.*)$ $1 [L,QSA]
   ExpiresByType text/css "access plus 604800 seconds"
   ExpiresByType text/javascript "access plus 216000 seconds"
   ExpiresByType application/x-javascript "access plus 216000 seconds"
-</ifModule>
-<ifModule mod_headers.c>
+</IfModule>
+<IfModule mod_headers.c>
   <filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf)$">
     Header set Cache-Control "max-age=2592000, public"
   </filesMatch>
@@ -57,11 +52,11 @@ RewriteRule ^(.*)$ $1 [L,QSA]
   <filesMatch "\\.(html|htm|php)$">
     Header set Cache-Control "max-age=1, private, must-revalidate"
   </filesMatch>
-</ifModule>
-<ifModule mod_headers.c>
+</IfModule>
+<IfModule mod_headers.c>
   Header unset ETag
-</ifModule>
+</IfModule>
 FileETag None
-<ifModule mod_headers.c>
+<IfModule mod_headers.c>
   Header unset Last-Modified
-</ifModule>
+</IfModule>
