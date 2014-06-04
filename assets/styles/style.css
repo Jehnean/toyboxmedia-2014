@@ -39,10 +39,13 @@ a:active, a:hover {
 }
 #header {
 	height: 100px;
+	width: 100%;
 	overflow: hidden;
-}
-nav {
 	position: fixed;
+	background: #000;
+}
+
+nav {
 }
 #logo {
 	height: 60px;
@@ -99,8 +102,11 @@ nav {
 	-webkit-box-sizing: border-box;
 }
 #cinema {
-	height: 250px;
+	position: relative;
+	top: 100px;
+	height: 450px;
 	text-align: center;
+	color: #fff;
 }
 #main-banner a.btn {
 	display: block;
