@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ToyboxMedia</title>
 
+        <link href='http://fonts.googleapis.com/css?family=PT+Serif|Open+Sans:800,600,400' rel='stylesheet' type='text/css'>
         <link rel="stylesheet/less" type="text/css" href="/less/styles.less" />
 
         <!--[if lt IE 9]>
@@ -19,7 +20,7 @@
     <body>
 
         <nav>
-            <h1>ToyBox Media</h1>
+            <span>ToyBox Media</span>
             <ul>
                 <li>Work</li>
                 <li>About</li>
